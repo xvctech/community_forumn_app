@@ -1,8 +1,4 @@
 
-
-
-
-
 import 'dart:convert';
 
 import 'package:community_app/constant.dart';

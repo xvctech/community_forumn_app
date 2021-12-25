@@ -20,7 +20,7 @@ class _LoadingState extends State<Loading> {
     String token = await getToken();
     if(token == ''){
       Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder:
-      (context)=>Login() ), (route) => false);
+      (context)=>const Login() ), (route) => false);
     }
     else{
       ApiResponse response = await getUserDetail();
